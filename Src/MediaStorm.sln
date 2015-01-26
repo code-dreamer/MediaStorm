@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaStorm", "MediaStorm\MediaStorm.csproj", "{97EEF6F5-A76C-417B-ABCB-760A98A32001}"
+	ProjectSection(ProjectDependencies) = postProject
+		{74D70326-2454-40C9-A6E2-1431D44C2EF2} = {74D70326-2454-40C9-A6E2-1431D44C2EF2}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{54F6E1FE-8FD9-45C9-ABF5-97FC7EA03AEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaStorm.Infrastructure", "MediaStorm.Infrastructure\MediaStorm.Infrastructure.csproj", "{5A3547CB-CD3B-46F1-B5E7-4FA74A16847F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaStorm.Modules.Downloader", "MediaStorm.Modules.Downloader\MediaStorm.Modules.Downloader.csproj", "{0D19FEE9-650B-4104-A293-F1C0A8AFFF2F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaStorm.Modules.ContentCatalog", "MediaStorm.Modules.ContentCatalog\MediaStorm.Modules.ContentCatalog.csproj", "{74D70326-2454-40C9-A6E2-1431D44C2EF2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{97EEF6F5-A76C-417B-ABCB-760A98A32001}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97EEF6F5-A76C-417B-ABCB-760A98A32001}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97EEF6F5-A76C-417B-ABCB-760A98A32001}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97EEF6F5-A76C-417B-ABCB-760A98A32001}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A3547CB-CD3B-46F1-B5E7-4FA74A16847F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A3547CB-CD3B-46F1-B5E7-4FA74A16847F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A3547CB-CD3B-46F1-B5E7-4FA74A16847F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A3547CB-CD3B-46F1-B5E7-4FA74A16847F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D19FEE9-650B-4104-A293-F1C0A8AFFF2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D19FEE9-650B-4104-A293-F1C0A8AFFF2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D19FEE9-650B-4104-A293-F1C0A8AFFF2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D19FEE9-650B-4104-A293-F1C0A8AFFF2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74D70326-2454-40C9-A6E2-1431D44C2EF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74D70326-2454-40C9-A6E2-1431D44C2EF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74D70326-2454-40C9-A6E2-1431D44C2EF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74D70326-2454-40C9-A6E2-1431D44C2EF2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0D19FEE9-650B-4104-A293-F1C0A8AFFF2F} = {54F6E1FE-8FD9-45C9-ABF5-97FC7EA03AEB}
+		{74D70326-2454-40C9-A6E2-1431D44C2EF2} = {54F6E1FE-8FD9-45C9-ABF5-97FC7EA03AEB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.Logging.6.0.1304.0\lib\NET45
+	EndGlobalSection
+EndGlobal
